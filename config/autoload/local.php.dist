@@ -11,6 +11,10 @@
  * credentials from accidentally being comitted into version control.
  */
 
-return array(
-    // ...
-);
+return [
+    'db' => [
+        'dsn'            => 'mysql:dbname=DatabaseSchema;host=Host',
+        'username'       => 'username',
+        'password'       => 'password',
+    ]
+];
